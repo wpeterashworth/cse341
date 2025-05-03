@@ -1,0 +1,42 @@
+### Variables
+@baseUrl = http://localhost:8080
+@baseUrl2 = https://cse341-3rzs.onrender.com
+
+
+### LOCAL HOST ### 
+
+### Get all contacts
+GET {{baseUrl}}/contacts
+Content-Type: application/json
+
+### Get specific contact by ID: 1
+GET {{baseUrl}}/contacts/single/1
+Content-Type: application/json
+
+### Get specific contact by ID: 2
+GET {{baseUrl}}/contacts/single/2
+Content-Type: application/json
+
+### Get a specific contact by ID: 3
+GET {{baseUrl}}/contacts/single/3
+Content-Type: application/json
+
+
+### RENDER ### 
+
+### Get all contacts
+GET {{baseUrl2}}/contacts
+Content-Type: application/json
+
+### Get specific contact by ID: 1
+GET {{baseUrl2}}/contacts/single/1
+Content-Type: application/json
+
+### Get specific contact by ID: 2
+GET {{baseUrl2}}/contacts/single/2
+Content-Type: application/json
+
+### Get a specific contact by ID: 3
+GET {{baseUrl2}}/contacts/single/3
+Content-Type: application/json
+

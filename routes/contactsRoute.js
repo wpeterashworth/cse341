@@ -6,6 +6,6 @@ const contactsController = require('../controllers/contactsController');
 router.get('/', contactsController.getAllContacts);
 
 // Get single contact by ID
-router.get('/single', contactsController.getSingleContact);
+router.get('/single/:id', contactsController.getSingleContact);
 
 module.exports = router;
