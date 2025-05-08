@@ -40,3 +40,32 @@ Content-Type: application/json
 GET {{baseUrl2}}/contacts/single/3
 Content-Type: application/json
 
+
+### Create new contact
+POST {{baseUrl}}/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1980-01-01"
+}
+
+### update contact
+PUT {{baseUrl}}/contacts/4
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@example.com",
+  "favoriteColor": "green",
+  "birthday": "1980-01-01"
+}
+
+
+### delete contact
+DELETE {{baseUrl}}/contacts/5
+
