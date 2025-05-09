@@ -53,6 +53,18 @@ Content-Type: application/json
   "birthday": "1980-01-01"
 }
 
+### Create new contact RENDER URL
+POST {{baseUrl2}}/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "red",
+  "birthday": "1980-01-01"
+}
+
 ### update contact
 PUT {{baseUrl}}/contacts/4
 Content-Type: application/json
@@ -65,7 +77,22 @@ Content-Type: application/json
   "birthday": "1980-01-01"
 }
 
+### update contact RENDER URL
+PUT {{baseUrl2}}/contacts/4
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@example.com",
+  "favoriteColor": "black",
+  "birthday": "1980-01-01"
+}
+
 
 ### delete contact
-DELETE {{baseUrl}}/contacts/5
+DELETE {{baseUrl}}/contacts/4
+
+### delete contact RENDER URL
+DELETE {{baseUrl2}}/contacts/5
 
