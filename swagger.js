@@ -7,8 +7,8 @@ const doc = {
     description: 'API for managing contacts stored in MongoDB',
     version: '1.0.0',
   },
-  host: 'localhost:8080',
-  schemes: ['http'],
+  host: 'cse341-3rzs.onrender.com',
+  schemes: ['https'],
   tags: [
     {
       name: 'Contacts',

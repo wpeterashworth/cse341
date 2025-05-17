@@ -5,7 +5,7 @@
     "description": "API for managing contacts stored in MongoDB",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-3rzs.onrender.com",
   "basePath": "/",
   "tags": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/contacts": {
